@@ -1,4 +1,11 @@
-// Main application entry point
+// AVL Tree - Nick Thompson
+// An implementation of a self-balancing binary search tree using AVL algorithm
+//
+// Copyright (c) 2026 Nick Thompson
+// SPDX-License-Identifier: MIT
+
+/// @file main.cpp
+/// @brief Main application entry point demonstrating AVLTree usage
 #include "avl_tree/avl_tree.h"
 #include <iostream>
 #include <cstdlib>

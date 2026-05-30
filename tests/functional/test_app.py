@@ -1,3 +1,9 @@
+# AVL Tree - Nick Thompson
+# An implementation of a self-balancing binary search tree using AVL algorithm
+#
+# Copyright (c) 2026 Nick Thompson
+# SPDX-License-Identifier: MIT
+
 """AVL Tree functional tests."""
 import subprocess
 import pytest

@@ -5,3 +5,7 @@ compile_commands.json
 *.dSYM
 .venv/
 .conda-env
+
+# Python bytecode (compiled files)
+*.pyc
+__pycache__/

@@ -1,3 +1,11 @@
+// AVL Tree - Nick Thompson
+// An implementation of a self-balancing binary search tree using AVL algorithm
+//
+// Copyright (c) 2026 Nick Thompson
+// SPDX-License-Identifier: MIT
+
+/// @file avl_tree_test.cpp
+/// @brief Unit tests for AVLTree class functionality
 #include "avl_tree/avl_tree.h"
 #include <gtest/gtest.h>
 
