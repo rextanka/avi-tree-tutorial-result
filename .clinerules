@@ -1,0 +1,21 @@
+You are running locally on a resource-constrained environment (Apple Silicon, 48GB unified memory).
+
+Project: C++20, CMake 3.24+, GoogleTest via FetchContent.
+Build directory: build/. Always invoke cmake and build commands from the project root.
+Functional tests: Python/pytest in tests/functional/. 
+
+- Read only the specific file or function named in the task. Do not scan entire directories.
+- Write tight, focused diffs. Do not rewrite files when a small change will do.
+- Complete one discrete change per step and stop for confirmation.
+- Do not run directory-wide search or analysis unless explicitly asked.
+- Use `cmake --build build/` to build. Use `ctest --test-dir build/ --output-on-failure`
+  to run unit tests.
+- All new C++ headers must use `#pragma once`. All code must target C++20.
+- Plan mode is read-only. In Plan mode, describe the steps you would take but
+  do not invoke write_to_file, execute_command, or any other tool that modifies
+  files or runs commands. Use plan_mode_respond to present your plan and wait
+  for the user to switch to Act mode before executing.
+- To create directories, use execute_command with `mkdir -p <path>`. Do not
+  attempt to create a directory using write_to_file; write_to_file only creates
+  files. If a task requires both directories and files, always run mkdir first,
+  then create files inside the new directories.
