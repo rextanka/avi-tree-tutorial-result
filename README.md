@@ -1,6 +1,6 @@
 # AVL Tree C++ Project
 
-A self-balancing binary search tree implementation in modern C++20, developed as part of the tutorial at `docs/local-llm-cline-tutorial.md`.
+A self-balancing binary search tree implementation in modern C++20, developed as part of the tutorial at `docs/local-llm-cline-tutorial.md`. This is a worked example of the tutorial at <link>.
 
 ## Overview
 
