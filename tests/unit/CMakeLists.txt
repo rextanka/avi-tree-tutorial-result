@@ -1,0 +1,3 @@
+add_executable(avl_tree_unit_tests avl_tree_test.cpp)
+target_link_libraries(avl_tree_unit_tests PRIVATE avl_tree_lib GTest::gtest_main)
+gtest_discover_tests(avl_tree_unit_tests)

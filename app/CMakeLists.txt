@@ -1,0 +1,2 @@
+add_executable(avl_tree_app main.cpp)
+target_link_libraries(avl_tree_app PRIVATE avl_tree_lib)
